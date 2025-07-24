@@ -7,10 +7,16 @@ export default function LoadersLayout({ children }) {
 
         {/* Sidebar */}
         <div className=" w-[15%] flex flex-col justify-center items-center gap-5">
-          <div className="bg-white/30 border border-black/30 w-[50%] h-[85%] rounded backdrop-blur-2xl flex flex-col items-center gap-5 py-5">
+          <div className="hide-scrollbar overflow-y-auto bg-white/30 border border-black/30 w-[50%] h-[85%] rounded backdrop-blur-2xl flex flex-col items-center gap-5 py-5">
             <Link href="/LoadersComponents/loader01" className="border border-black/30 bg-sky-200 w-[70px] h-[70px] rounded-full flex justify-center items-center">L1</Link>
             <Link href="/LoadersComponents/loader02" className="border border-black/30 bg-sky-200 w-[70px] h-[70px] rounded-full flex justify-center items-center">L2</Link>
             <Link href="/LoadersComponents/loader03" className="border border-black/30 bg-sky-200 w-[70px] h-[70px] rounded-full flex justify-center items-center">L3</Link>
+            <Link href="/LoadersComponents/loader04" className="border border-black/30 bg-sky-200 w-[70px] h-[70px] rounded-full flex justify-center items-center">L4</Link>
+            <Link href="/LoadersComponents/loader05" className="border border-black/30 bg-sky-200 w-[70px] h-[70px] rounded-full flex justify-center items-center">L5</Link>
+            <Link href="/LoadersComponents/loader06" className="border border-black/30 bg-sky-200 w-[70px] h-[70px] rounded-full flex justify-center items-center">L6</Link>
+            <Link href="/LoadersComponents/loader07" className="border border-black/30 bg-sky-200 w-[70px] h-[70px] rounded-full flex justify-center items-center">L7</Link>
+            <Link href="/LoadersComponents/loader08" className="border border-black/30 bg-sky-200 w-[70px] h-[70px] rounded-full flex justify-center items-center">L8</Link>
+            <Link href="/LoadersComponents/loader09" className="border border-black/30 bg-sky-200 w-[70px] h-[70px] rounded-full flex justify-center items-center">L9</Link>
           </div>
         </div>
 
