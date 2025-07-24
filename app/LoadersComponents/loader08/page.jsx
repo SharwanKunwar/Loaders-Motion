@@ -17,7 +17,7 @@ export default function Loader08() {
   return (
     <div className="w-full h-full flex justify-center items-center bg-black relative overflow-hidden">
       {/* ✨ Star background */}
-      <div className="absolute inset-0 bg-[url('/stars-bg.png')] bg-cover opacity-30 z-0" />
+      <div className="absolute inset-0 bg-[url('/stars.jpg')] bg-cover opacity-30 z-0" />
 
       {/* ☀️ Sun */}
       <div className="absolute z-20 w-24 h-24 bg-yellow-400 rounded-full shadow-2xl shadow-yellow-200" />
