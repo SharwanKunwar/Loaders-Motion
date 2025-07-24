@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 export default function Loader01() {
   return (
     <div className="text-black text-3xl w-full h-full flex justify-center items-center">
-      <div className="bg-white/30 backdrop-blur-md border border-white/30 max-w-5xl min-w-5xl py-20 flex justify-center items-center rounded gap-0">
+      <div className="bg-white/30 backdrop-blur-md border border-white/30 w-full h-full py-20 flex justify-center items-center rounded gap-0">
        <motion.div
         className=' w-[100px] mr-3'>Loading</motion.div>
        <motion.div
